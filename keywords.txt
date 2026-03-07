@@ -1,0 +1,44 @@
+# Syntax Coloring Map For ExampleLibrary
+
+# Datatypes (KEYWORD1)
+ArduinoSerial	KEYWORD1
+ModbusCounters	KEYWORD1
+ReadHoldingRegisterHandler	KEYWORD1
+ModbusHandlerBase	KEYWORD1
+SerialSettings	KEYWORD1
+Modbus	KEYWORD1
+SerialModbus	KEYWORD1
+ArduinoSerialDigitalWrite	KEYWORD1
+ArduinoSerialPortPins	KEYWORD1
+ArduinoGpio	KEYWORD1
+BaudRate	KEYWORD1
+Parity	KEYWORD1
+Crc16Lookup	KEYWORD1
+GpioBase	KEYWORD1
+ModbusBase	KEYWORD1
+ReadInputsHandler	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+Clocktick	KEYWORD2
+SetMode	KEYWORD2
+Write	KEYWORD2
+Read	KEYWORD2
+ToRegister	KEYWORD2
+FromRegister	KEYWORD2
+ToBaud	KEYWORD2
+Crc16	KEYWORD2
+Mode	KEYWORD2
+HandleMessage	KEYWORD2
+CalculateCRC	KEYWORD2
+ConvertToLittleEndian	KEYWORD2
+ConvertFromLittleEndian	KEYWORD2
+FunctionCode	KEYWORD2
+SendException	KEYWORD2
+SetBaudRate	KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
+BAUD_RATES	LITERAL1
+DEFAULT_BAUD	LITERAL1
+CharTimeoutUs	LITERAL1

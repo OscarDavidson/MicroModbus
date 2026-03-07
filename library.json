@@ -1,0 +1,42 @@
+{
+    "name": "MicroModbus",
+    "version": "0.0.1",
+    "description": "Cross-platform C++ Modbus library, very low RAM/ROM use",
+    "keywords": [
+      "Modbus",
+      "industrial",
+      "arduino",
+      "embedded",
+      "cross-platform",
+      "cmake"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/OscarDavidson/MicroModbus"
+    },
+    "homepage": "https://github.com/OscarDavidson/MicroModbus",
+    "authors": [
+      {
+        "name": "Oscar Davidson",
+        "email": "heavybaremetal@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "frameworks": [
+      "arduino"
+    ],
+    "platforms": "*",
+    "build": {
+      "srcDir": "src"
+    },
+    "export": {
+      "exclude": [
+        "tests",
+        "test",
+        "cmake",
+        ".github",
+        "build"
+      ]
+    }
+  }
