@@ -1,6 +1,7 @@
 
-![Build](https://github.com/OscarDavidson/MicroModbus/actions/workflows/tests.yml/badge.svg?job=Build)
-![Unit Tests](https://github.com/OscarDavidson/MicroModbus/actions/workflows/tests.yml/badge.svg?job=Tests)
+Build tests ![Build](https://github.com/OscarDavidson/MicroModbus/actions/workflows/build-tests.yml/badge.svg?job=Build)
+
+Run tests ![Unit Tests](https://github.com/OscarDavidson/MicroModbus/actions/workflows/run-tests.yml/badge.svg?job=Tests)
 
 # MicroModbus
 
