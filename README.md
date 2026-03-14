@@ -16,3 +16,14 @@ The included example `AdcClientAvr` uses only 4404 bytes of ROM and 588 bytes of
 RS485 is supported, driving a configurable GPIO for transmit enable. Standard serial without transmit enable is supported, such as the built in USB port.
 
 Network support is planned, and more message handlers.
+
+### Unit tests
+Unit tests are provided, using googletest. To build and run the unit tests, run
+the following:
+```bash
+cmake -S tests tests/build
+cmake --build tests/build
+./tests/build/MicroModbusTest
+``` 
+Or run the script with `./run_tests.sh`. You may need to make it executable
+first with `chmod+x run_tests.sh`.
