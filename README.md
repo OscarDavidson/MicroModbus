@@ -1,3 +1,5 @@
+![Tests](https://github.com/OscarDavidson/MicroModbus/actions/workflows/tests.yml/badge.svg)
+
 # MicroModbus
 
 Minimal Modbus RTU library for Arduino/platformio
