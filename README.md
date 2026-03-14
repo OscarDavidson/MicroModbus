@@ -1,7 +1,6 @@
-### CI Status
 
-![Build](https://github.com/OscarDavidson/MicroModbus/actions/workflows/ci.yml/badge.svg?job=Build)
-![Tests](https://github.com/OscarDavidson/MicroModbus/actions/workflows/ci.yml/badge.svg?job=Tests)
+![Build](https://github.com/OscarDavidson/MicroModbus/actions/workflows/tests.yml/badge.svg?job=Build)
+![Unit Tests](https://github.com/OscarDavidson/MicroModbus/actions/workflows/tests.yml/badge.svg?job=Tests)
 
 # MicroModbus
 
