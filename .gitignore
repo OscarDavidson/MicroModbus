@@ -1,3 +1,5 @@
 .pio
 .qtc_clangd
 .DS_Store
+build*
+*.user
