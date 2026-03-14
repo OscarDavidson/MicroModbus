@@ -1,12 +1,12 @@
-name: Run unit tests
+name: Unit tests
 
 on:
   push:
   pull_request:
 
 jobs:
-  tests:
-    name: Tests
+  build:
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +20,14 @@ jobs:
 
       - name: Build
         run: cmake --build tests/build --parallel
+
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - uses: actions/checkout@v4
 
       - name: Run tests
         run: ctest --test-dir tests/build --output-on-failure
